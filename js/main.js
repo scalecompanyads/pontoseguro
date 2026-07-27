@@ -7,7 +7,7 @@
    Troque apenas o número abaixo (formato internacional, só dígitos:
    55 + DDD + número). Todos os botões da página serão atualizados.
    -------------------------------------------------------------------------- */
-var WHATSAPP_NUMBER = '5500000000000'; // <<< TROQUE AQUI
+var WHATSAPP_NUMBER = '5598991923508'; // <<< TROQUE AQUI
 var WHATSAPP_DEFAULT_MESSAGE = 'Olá! Gostaria de receber uma cotação de plano de saúde.';
 
 /* Habilita os estilos que dependem de JS (animações de entrada) */
