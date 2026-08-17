@@ -366,7 +366,7 @@ a { color: var(--navy); }
 @media (min-width: 992px) {
   .hero {
     background:
-      url('../assets/img/hero-bg-desktop.jpg') right center / cover no-repeat,
+      url('../assets/img/hero-bg-desktop.jpg?v=20260817') right center / cover no-repeat,
       var(--bg-light);
   }
 
