@@ -336,6 +336,7 @@ a { color: var(--navy); }
 
 .hero__trust-operators {
   margin: 0;
+  max-width: 440px;
   font-size: 0.92rem;
   font-weight: 600;
   color: var(--navy);
