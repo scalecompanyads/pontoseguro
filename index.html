@@ -19,7 +19,7 @@
   <meta property="og:locale" content="pt_BR">
   <meta property="og:title" content="Ponto Seguro Corretora | Planos de Saúde para Empresas, MEIs e Famílias">
   <meta property="og:description" content="Compare coberturas, valores, rede credenciada e benefícios das principais operadoras com uma consultoria clara, rápida e personalizada.">
-  <meta property="og:image" content="assets/img/hero-bg-desktop.jpg?v=20260817">
+  <meta property="og:image" content="assets/img/hero-desktop.png?v=20260903">
 
   <link rel="icon" type="image/png" href="assets/img/favicon.png?v=20260817">
 
@@ -123,37 +123,20 @@
     </symbol>
   </svg>
 
-  <!-- ============ HEADER ============ -->
-  <header class="header" id="topo">
-    <div class="container container--wide header__inner">
-      <a href="#inicio" class="header__logo" aria-label="Ponto Seguro Corretora — início">
-        <img src="assets/img/logo-azul.png?v=20260817" alt="Ponto Seguro Corretora" width="220" height="52">
-      </a>
-
-      <nav class="header__nav" id="menu" aria-label="Navegação principal">
-        <a href="#beneficios">Benefícios</a>
-        <a href="#publico">Para quem</a>
-        <a href="#como-funciona">Como funciona</a>
-        <a href="#faq">Dúvidas</a>
-        <a class="btn btn--primary btn--sm js-whatsapp" href="https://wa.me/5598991923508?text=Ol%C3%A1!%20Gostaria%20de%20receber%20uma%20cota%C3%A7%C3%A3o%20de%20plano%20de%20sa%C3%BAde." target="_blank" rel="noopener">
-          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
-          Receber cotação
-        </a>
-      </nav>
-
-      <button class="header__toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
   <main>
 
     <!-- ============ 1. HERO ============ -->
     <section class="hero" id="inicio">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/img/hero-mobile.png?v=20260903" alt="" fetchpriority="high">
+      </div>
       <div class="hero__decor" aria-hidden="true"></div>
       <div class="container container--wide hero__inner">
         <div class="hero__content">
+          <picture class="hero__logo">
+            <source media="(min-width: 992px)" srcset="assets/img/logo-azul.png?v=20260817">
+            <img src="assets/img/logo-branca.png?v=20260817" alt="Ponto Seguro Corretora" width="180" height="42">
+          </picture>
           <h1>Já tem plano de saúde, mas não está satisfeito? <span class="tx-red">Compare outras opções</span> antes de continuar pagando pelo que não te atende</h1>
           <p class="hero__lead">Se você já tem um plano ou está vindo de outra operadora, a Ponto Seguro analisa sua situação atual e apresenta alternativas de operadoras, rede credenciada, valores e condições de carência de acordo com o seu perfil.</p>
 
@@ -173,7 +156,6 @@
           </div>
         </div>
       </div>
-      <img class="hero__mobile-img" src="assets/img/hero-bg-desktop.jpg?v=20260817" alt="Equipe da Ponto Seguro Corretora em escritório moderno" fetchpriority="high">
     </section>
 
     <!-- ============ 2. IDENTIFICAÇÃO / PROBLEMA ============ -->

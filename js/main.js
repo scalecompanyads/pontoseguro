@@ -21,38 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
     link.href = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(message);
   });
 
-  /* ---------- Menu mobile ---------- */
-  var toggle = document.getElementById('menu-toggle');
-  var menu = document.getElementById('menu');
-
-  if (toggle && menu) {
-    toggle.addEventListener('click', function () {
-      var open = menu.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      toggle.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
-    });
-
-    menu.querySelectorAll('a').forEach(function (link) {
-      link.addEventListener('click', function () {
-        menu.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        toggle.setAttribute('aria-label', 'Abrir menu');
-      });
-    });
-  }
-
-  /* ---------- Sombra do header ao rolar ---------- */
-  var header = document.querySelector('.header');
-
-  function onScroll() {
-    header.classList.toggle('is-scrolled', window.scrollY > 8);
-  }
-
-  if (header) {
-    window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
-  }
-
   /* ---------- Animações de entrada ---------- */
   var reveals = document.querySelectorAll('.reveal');
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
